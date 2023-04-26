@@ -1,6 +1,8 @@
 # test please ignore
 
 
+# Example 1
+
 ```python
 
 from typing import List
@@ -21,17 +23,22 @@ def solution():
             f(n - 1, temp, source, dest) 
     f(8, 0, 1, 2) 
     return moves   
+```
 
+# Example 2
 
+```python
 
 def puzzle(s: str): 
     return s.count('A') == 1000 and s.count('AA') == 0  
 
 def solution(): 
     return 'AB' * 1000   
+```
 
+# Example 3
 
-
+```python
 
 def puzzle(i: int, n=241864633):     
     return 1 < i < n and n % i == 0  
